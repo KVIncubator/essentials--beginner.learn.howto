@@ -1,5 +1,5 @@
 /*
- *     Copyright 2021 ujar Knowledge Base @ http://ujar.org
+ *     Copyright 2021 uJar Boot Camp @ http://ujar.org
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
