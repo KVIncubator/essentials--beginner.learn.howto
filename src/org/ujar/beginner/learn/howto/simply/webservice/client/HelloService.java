@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.ujar.learn.howto.simply.webservice.client;
+package org.ujar.beginner.learn.howto.simply.webservice.client;
 
 import java.net.MalformedURLException;
 import java.net.URL;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.ujar.learn.howto.simply.webservice.client;
+package org.ujar.beginner.learn.howto.simply.webservice.client;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

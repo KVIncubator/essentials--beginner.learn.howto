@@ -14,18 +14,21 @@
  * limitations under the License.
  */
 
-package org.ujar.learn.howto.simply.webservice.server;
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
-import javax.jws.WebService;
-import javax.jws.soap.SOAPBinding;
+package org.ujar.beginner.learn.howto.simply.parsejson;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
-@WebService
-@SOAPBinding(style=SOAPBinding.Style.RPC)
-public class Hello {
+public class Parser {
 
-    public String sayHello(String name) {
-        return "Hello " + name;
+    public static void main(String [] args)
+    {
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            Person user = mapper.readValue("{\"name\": \"John\"}", Person.class);
+            System.out.println(user.getName()); //John
+        } catch (JsonProcessingException ex) {
+            ex.printStackTrace();
+        }
     }
 }

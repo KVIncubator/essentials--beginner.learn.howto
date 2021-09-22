@@ -14,17 +14,18 @@
  * limitations under the License.
  */
 
-package org.ujar.learn.howto.simply.parsejson;
+package org.ujar.beginner.learn.howto.simply.webservice.server;
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebService;
+import javax.jws.soap.SOAPBinding;
 
 
-public class Person {
-    private String name;
+@WebService
+@SOAPBinding(style=SOAPBinding.Style.RPC)
+public class Hello {
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public String sayHello(String name) {
+        return "Hello " + name;
     }
 }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.ujar.learn.howto.simply.parsexml;
+package org.ujar.beginner.learn.howto.simply.parsexml;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;

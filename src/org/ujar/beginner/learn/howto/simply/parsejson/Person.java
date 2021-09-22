@@ -14,21 +14,17 @@
  * limitations under the License.
  */
 
-package org.ujar.learn.howto.simply.parsejson;
+package org.ujar.beginner.learn.howto.simply.parsejson;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class Parser {
+public class Person {
+    private String name;
 
-    public static void main(String [] args)
-    {
-        ObjectMapper mapper = new ObjectMapper();
-        try {
-            Person user = mapper.readValue("{\"name\": \"John\"}", Person.class);
-            System.out.println(user.getName()); //John
-        } catch (JsonProcessingException ex) {
-            ex.printStackTrace();
-        }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

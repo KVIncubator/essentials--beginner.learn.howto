@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.ujar.learn.howto.simply.webservice.server;
+package org.ujar.beginner.learn.howto.simply.webservice.server;
 
 import javax.xml.ws.Endpoint;
 public class Starter {
