@@ -1,6 +1,6 @@
 # Java beginner How-To
 
-Java beginner How-To is a samples of Java code samples that cover working with Json, XML, and web services.
+Java beginner How-To is a samples of Java code that cover working with Json, XML, and web services.
 
 ## Installation
 
