@@ -1,5 +1,7 @@
 # Java beginner How-To
 
+[![Build](https://github.com/ujar-org/essentials--beginner.learn.howto/actions/workflows/build.yml/badge.svg)](https://github.com/ujar-org/essentials--beginner.learn.howto/actions/workflows/build.yml)
+
 Java beginner How-To is a samples of Java code that cover working with Json, XML, and web services.
 
 ## Installation
